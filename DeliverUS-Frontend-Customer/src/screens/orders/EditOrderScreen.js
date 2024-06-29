@@ -120,8 +120,8 @@ export default function EditOrderScreen ({ navigation, route }) {
               style={({ pressed }) => [
                 {
                   backgroundColor: pressed
-                    ? '#808080'
-                    : '#808080'
+                    ? GlobalStyles.brandSecondary
+                    : GlobalStyles.brandSecondary
                 },
                 styles.actionButton
               ]}>
@@ -135,8 +135,8 @@ export default function EditOrderScreen ({ navigation, route }) {
               style={({ pressed }) => [
                 {
                   backgroundColor: pressed
-                    ? '#808080'
-                    : '#808080'
+                    ? GlobalStyles.brandSecondary
+                    : GlobalStyles.brandSecondary
                 },
                 styles.actionButton
               ]}>
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: 'white',
-    backgroundColor: '#808080'
+    backgroundColor: GlobalStyles.brandSecondary
 
   },
   quantityContainer: {
